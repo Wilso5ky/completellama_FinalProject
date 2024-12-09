@@ -45,4 +45,4 @@ class findLocation():
             word = english_lines[int(index)].strip()
             decrypted_location.append(word)
        
-        return ' '.join(decrypted_location)\
+        return ' '.join(decrypted_location)
