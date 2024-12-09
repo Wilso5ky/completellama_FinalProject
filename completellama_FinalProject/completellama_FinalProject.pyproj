@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dataPackage\EncryptedGroupHints Fall 2024 Section 001.json" />
-    <Content Include="dataPackage\Image.jfif" />
+    <Content Include="dataPackage\us.jfif" />
     <Content Include="dataPackage\TeamsAndEncryptedMessagesForDistribution.json" />
     <Content Include="dataPackage\UCEnglish.txt" />
   </ItemGroup>
