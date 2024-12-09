@@ -2,6 +2,7 @@ import dataPackage
 from locationPackage.decryptedLocation import findLocation
 from moviePackage.decryptedMovie import decrypt_movie_title
 import json
+from PIL import Image
 
 def main():
     # Paths to files
@@ -32,6 +33,13 @@ def main():
     # Decrypt the movie title
     movie_title = decrypt_movie_title(encrypted_message, movie_key)
     print(f"Decrypted Movie Title: {movie_title}")
+
+     #Open our selfie 
+    image_path = ('dataPackage/us.jfif')
+    image = Image.open(image_path)
+
+    #Display our awesome selfie 
+    image.show()
 
 if __name__ == "__main__":
     main()
